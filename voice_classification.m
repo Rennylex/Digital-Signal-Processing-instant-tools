@@ -1,4 +1,4 @@
-function voi = voiunvoi(x,N,Pth,Zth)
+function voi = ce_classification(x,N,Pth,Zth)
 % Short-time power Px and zero crossing Zx measures.
 Px = stpower(x,N);
 Zx = stzerocross(x,N);
